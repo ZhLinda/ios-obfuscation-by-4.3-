@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>char FENQIDAI_haracter = &apos;s&apos;;
+FENQIDAI_haracter += 4;</string>
+		<string>NSString * FENQIDAI_totalStr = @&quot;@#$%^&amp;*()!\:&gt;?&lt;{}|~&quot;;
+
+NSString * FENQIDAI_string = [[NSString alloc]initWithString:FENQIDAI_totalStr ];
+</string>
+		<string>NSArray * FENQIDAI_Arr = @[@(1),@(2),@(9),@(2098)];
+for (int i = 0; i &lt; FENQIDAI_Arr.count; i++) {
+    NSNumber * number = FENQIDAI_Arr[i];
+    NSInteger num = [number integerValue];
+}</string>
+		<string></string>
+		<string></string>
+	</array>
+	<array>
+		<string>NSString * FENQIDAI_messageString = [NSString stringWithFormat:@&quot;%@_%@&quot;,@&quot;message:&quot;,@&quot;testMessage&quot;];
+</string>
+		<string>UIColor * FENQIDAI_newColor = [UIColor whiteColor];
+</string>
+		<string>UILabel * FENQIDAI_label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+FENQIDAI_label.backgroundColor = [UIColor redColor];
+FENQIDAI_label.font = [UIFont systemFontOfSize:15];</string>
+		<string></string>
+		<string></string>
+	</array>
+	<array>
+		<string>UILabel * FENQIDAI_message = [[UILabel alloc]initWithFrame:CGRectMake(100, 15, [UIScreen mainScreen].bounds.size.width, 30)];
+FENQIDAI_message.font = [UIFont systemFontOfSize:15];
+FENQIDAI_message.textColor = [UIColor blueColor];
+FENQIDAI_message.text = @&quot;确定&quot;;</string>
+		<string>UIView * FENQIDAI_view = [[UIView alloc]initWithFrame:CGRectMake(100, 50,  [UIScreen mainScreen].bounds.size.width, 100)];
+FENQIDAI_view.backgroundColor = [UIColor whiteColor];</string>
+		<string>UIButton * FENQIDAI_cancelBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+FENQIDAI_cancelBtn.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 40, [UIScreen mainScreen].bounds.size.width, 40);
+[FENQIDAI_cancelBtn setTitle:@&quot;取消&quot; forState:UIControlStateNormal];
+FENQIDAI_cancelBtn.titleLabel.font = [UIFont systemFontOfSize:15];
+[FENQIDAI_cancelBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];</string>
+	</array>
+</array>
+</plist>
